@@ -1,0 +1,12 @@
+# publishing
+exclude: ["README.md", "LICENSE"]
+
+# plugins
+gems:
+  - jekyll-sitemap # generates standart sitemaps
+
+# site properties
+disqus: # disqus shortname (find it on the Settings page)
+google_analytics: UA-30488321-1 # tracking code (e.g. UA-2110908-2)
+name: Júlio César
+description: Brazilian Software Developer

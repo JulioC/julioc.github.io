@@ -1,0 +1,192 @@
+/* General page style */
+
+body {
+  font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #444;
+  background: #F9F9F9;
+  padding-bottom: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #607890;
+}
+
+a:hover {
+  color: #036;
+}
+
+::selection {
+  background: #6091bf;
+  color: #fff;
+  text-shadow: none;
+}
+
+.container {
+  width: 768px;
+}
+
+/* Header bar */
+
+#header {
+  color: #D2D2D2;
+  background: #2C2C29;
+  padding: 3em 0 2em 0;
+  margin-bottom: 1em;
+  box-shadow: 2px 2px 5px rgba(10, 10, 10, 0.4);
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 100;
+}
+
+#header a {
+  color: #E5E5E5;
+}
+
+#title {
+  color: #fff;
+  margin-top: 0;
+}
+
+#subtitle {
+  margin: 0;
+  font-size: 1em;
+}
+
+#intro a i {
+  margin-left: 0.2em;
+}
+
+/* Contact info box */
+
+#contact {
+  margin-top: 2em;
+}
+
+#social {
+  margin-bottom: 1.8em;
+}
+
+.social-github { color: #444; }
+.social-github:hover,
+.social-github:focus,
+.social-github:active { color: #2b2b2b; }
+
+.social-delicious { color: #097AEA; }
+.social-delicious:hover,
+.social-delicious:focus,
+.social-delicious:active { color: #333333; }
+
+.social-linkedin { color: #007bb6; }
+.social-linkedin:hover,
+.social-linkedin:focus,
+.social-linkedin:active { color: #005983; }
+
+.social-steam { color: #0b0b0b; }
+.social-steam:hover,
+.social-steam:focus,
+.social-steam:active { color: #000000; }
+
+/* Resume style */
+
+.underlined {
+  border-bottom: 1px #E2E2E2 solid;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.6em;
+}
+
+#contacts {
+  margin-bottom: 0.8em;
+}
+
+.entry {
+  margin-bottom: 2em;
+}
+
+.entry .date {
+  font-weight: normal;
+  float: right;
+}
+
+.entry .website {
+  float: right;
+}
+
+.entry .subtitle {
+  font-style: italic;
+  color: #444;
+  margin-bottom: 0.4em;
+}
+
+#languages .entry,
+#interests .entry {
+  margin-bottom: 0.6em;
+}
+
+/* Resume mobile */
+
+@media (max-width: 768px) {
+  .container {
+    width: auto;
+  }
+
+  .entry .title {
+    margin-bottom: 0.2em;
+  }
+
+  .entry .date {
+    display: none;
+  }
+
+  .entry .website {
+    float: none;
+  }
+}
+
+/* Resume printing */
+
+section {
+  page-break-inside: avoid;
+}
+
+@media print {
+  @page {
+      size: auto;
+      margin: 25mm 25mm 25mm 25mm;
+  }
+
+  a[href]:after {
+    content: "";
+  }
+
+  .col-sm-4 {
+    float: left;
+    width: 33.33333333%;
+  }
+
+  .container {
+    width: 620px;
+  }
+
+  #header {
+    padding-bottom: 0;
+  }
+
+  .entry .date {
+    display: inherit;
+  }
+
+  .entry .website {
+    float: right;
+  }
+
+  #profiles,
+  #interests {
+    display: none;
+  }
+}
