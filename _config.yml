@@ -5,6 +5,15 @@ exclude: ["README.md", "LICENSE"]
 gems:
   - jekyll-sitemap # generates standart sitemaps
 
+# content processing
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: pygments
+
+baseurl: "/"
+permalink: /:title/
+
 # site properties
 disqus: # disqus shortname (find it on the Settings page)
 google_analytics: UA-30488321-1 # tracking code (e.g. UA-2110908-2)

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div id="header">
+  <div id="header-content" class="container">
+    <h1 id="title"><a href="{{ site.baseurl }}">{{ site.name }}</a></h1>
+    {% if page.title %}<h2 id="subtitle">{{ page.title }}</h2>{% endif %}
+  </div>
+</div>
+
+<div id="content" class="container">
+  {{ content }}
+</div>

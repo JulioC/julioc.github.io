@@ -48,9 +48,14 @@ a:hover {
   color: #E5E5E5;
 }
 
-#title {
+#title,
+#title a {
   color: #fff;
   margin-top: 0;
+}
+
+#title a:hover {
+  text-decoration: none;
 }
 
 #subtitle {
