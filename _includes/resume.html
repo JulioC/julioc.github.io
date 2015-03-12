@@ -65,12 +65,16 @@
           <span class="date">
             {% if work.startDate %}
             <span class="start-date">
-              {{work.startDate}} -
+              {{ work.startDate | date: "%B %Y" }} -
             </span>
             {% endif %}
             {% if work.endDate %}
             <span class="end-date">
-              {{work.endDate}}
+              {{ work.endDate | date: "%B %Y" }}
+            </span>
+            {% else %}
+            <span class="end-date">
+              {{locale.present}}
             </span>
             {% endif %}
           </span>
@@ -120,12 +124,16 @@
           <span class="date">
             {% if volunteer.startDate %}
             <span class="start-date">
-              {{volunteer.startDate}} -
+              {{ volunteer.startDate | date: "%B %Y" }} -
             </span>
             {% endif %}
             {% if volunteer.endDate %}
             <span class="end-date">
-              {{volunteer.endDate}}
+              {{ volunteer.endDate | date: "%B %Y" }}
+            </span>
+            {% else %}
+            <span class="end-date">
+              {{locale.present}}
             </span>
             {% endif %}
           </span>
@@ -175,12 +183,16 @@
             <span class="date">
               {% if education.startDate %}
               <span class="start-date">
-                {{education.startDate}} -
+                {{ education.startDate | date: "%B %Y" }} -
               </span>
               {% endif %}
               {% if education.endDate %}
               <span class="end-date">
-                {{education.endDate}}
+                {{ education.endDate | date: "%B %Y" }}
+              </span>
+              {% else %}
+              <span class="end-date">
+                {{locale.present}}
               </span>
               {% endif %}
             </span>
