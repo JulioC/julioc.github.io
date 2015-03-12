@@ -1,5 +1,8 @@
 # publishing
-exclude: ["README.md", "LICENSE", "CNAME"]
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
 
 # plugins
 gems:
