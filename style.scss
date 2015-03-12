@@ -1,0 +1,209 @@
+---
+---
+
+@import "mixins";
+
+$font-title: Tahoma, Geneva, Verdana, sans-serif;
+$font-body: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+
+// General page style
+
+body {
+  font-family: $font-body;
+  color: #444;
+  background: #F9F9F9;
+  padding-bottom: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: $font-title;
+}
+
+a {
+  color: #607890;
+}
+
+a:hover {
+  color: #036;
+}
+
+::selection {
+  background: #6091bf;
+  color: #fff;
+  text-shadow: none;
+}
+
+.container {
+  width: 768px;
+
+  @include mobile {
+    width: auto;
+  }
+
+  @include print {
+    width: 620px;
+  }
+}
+
+// Printing
+
+@include print {
+  @page {
+    size: auto;
+    margin: 25mm 25mm 25mm 25mm;
+  }
+
+  section {
+    page-break-inside: avoid;
+  }
+
+  a[href]:after {
+    content: "";
+  }
+
+  .col-sm-4 {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+
+// Header bar
+
+#header {
+  color: #D2D2D2;
+  background: #2C2C29;
+  padding: 3em 0 2em 0;
+  margin-bottom: 1em;
+  box-shadow: 2px 2px 5px rgba(10, 10, 10, 0.4);
+
+  @include box-sizing(border-box);
+
+  z-index: 100;
+
+  @include print {
+    padding-bottom: 0;
+  }
+
+  a {
+    color: #E5E5E5;
+  }
+}
+
+#title,
+#title a {
+  color: #fff;
+  margin-top: 0;
+}
+
+#title a:hover {
+  text-decoration: none;
+}
+
+#subtitle {
+  margin: 0;
+  font-size: 1em;
+}
+
+#intro a i {
+  margin-left: 0.2em;
+}
+
+// Contact info box
+
+#contact {
+  margin-top: 2em;
+}
+
+#social {
+  margin-bottom: 1.8em;
+}
+
+.social-github {
+  color: #444;
+
+  &:hover, &:focus, &:active {
+    color: #2b2b2b;
+  }
+}
+
+.social-delicious {
+  color: #097AEA;
+
+  &:focus, &:hover, &:active {
+    color: #333333;
+  }
+}
+
+.social-linkedin {
+  color: #007bb6;
+
+  &:focus, &:hover, &:active {
+    color: #005983;
+  }
+}
+
+.social-steam {
+  color: #0b0b0b;
+
+  &:focus, &:hover, &:active {
+    color: #000000;
+  }
+}
+
+// Resume style
+
+.underlined {
+  border-bottom: 1px #E2E2E2 solid;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.6em;
+}
+
+#contacts {
+  margin-bottom: 0.8em;
+}
+
+.entry {
+  margin-bottom: 2em;
+
+  .date {
+    font-weight: normal;
+    float: right;
+
+    @include mobile {
+      display: none;
+    }
+  }
+
+  .website {
+    float: right;
+
+    @include mobile {
+      float: none;
+    }
+  }
+
+  .title {
+    @include mobile {
+      margin-bottom: 0.2em;
+    }
+  }
+
+  .subtitle {
+    font-style: italic;
+    color: #444;
+    margin-bottom: 0.4em;
+  }
+}
+
+#profiles,
+#interests {
+  @include print {
+    display: none;
+  }
+
+  .entry {
+    margin-bottom: 0.6em;
+  }
+}
