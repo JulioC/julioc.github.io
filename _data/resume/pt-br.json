@@ -1,0 +1,158 @@
+{
+  "basics": {
+    "name": "Júlio César de Souza",
+    "label": "Desenvolvedor de Software",
+    "email": "julio@julioc.me",
+    "phone": "11 97377-4773",
+    "website": "http://julioc.me",
+    "summary": "Desenvolvedor de Software, formado em Ciência da Computação pela Universidade Federal do ABC, com experiência no desenvolvimento de aplicações C++ e aplicações web Java e PHP, utilizando técnicas modernas de HTML, Javascript e CSS.",
+    "location": {
+      "address": "Al. São Caetano, 664, Ap 13",
+      "postalCode": "09560-050",
+      "city": "São Caetano do Sul",
+      "countryCode": "SP",
+      "region": "São Paulo"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "JulioC0",
+        "url": "http://br.linkedin.com/in/julioc0/"
+      },
+      {
+        "network": "GitHub",
+        "username": "JulioC",
+        "url": "https://github.com/JulioC"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Bull, an Atos Company",
+      "position": "Análise e Desenvolvimento de Software",
+      "website": "http://www.bull.com.br/",
+      "startDate": "2015-01-01",
+      "summary": "Pesquisa para projetos de inovação, criando protótipos e módulos para novas soluções financeiras, como mobile banking e cloud storage para documentos.  Desenvolvimento e melhorias de aplicações web Java (RichFaces, Spring) e módulos C++ (Boost, Qt) para integração com sistemas legado.",
+      "highlights": []
+    },
+    {
+      "company": "Bull",
+      "position": "Estágio em Análise e Desenvolvimento de Software",
+      "website": "http://www.bull.com.br/",
+      "startDate": "2013-05-01",
+      "endDate": "2014-12-31",
+      "summary": "Desenvolvimento de módulos C++ com Boost e Qt para a aplicação de processamento de imagens financeiras, integrando a plataforma com sistemas legado (usando o padrão ISO 8583) e disponibilizando interfaces para outras aplicações. Criação de interfaces web em Java para monitoramento e configuração, usando frameworks como Spring, Hybernate e RichFaces.",
+      "highlights": [
+        "Contribuindo para a adoção de melhores práticas, como builds com Maven e integração contínua com Jenkins",
+        "Uso de tecnologias modernas para melhorar a usabilidade da aplicação web"
+      ]
+    },
+    {
+      "company": "Freelancer",
+      "position": "Desenvolvedor Web",
+      "website": "",
+      "startDate": "2009-06-01",
+      "endDate": "2014-06-01",
+      "summary": "Desenvolvimento e implementação de websites, com soluções customizadas e plataformas CMS, como Wordpress e Joomla. Uso de tecnologias atuais, design reativo e APIs sociais, de mapas e de pagamentos para a construção de interfaces modernas.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Valve corporation",
+      "position": "Moderador de Tradução",
+      "website": "http://valvesoftware.com/",
+      "startDate": "2010-06-01",
+      "endDate": "2014-01-01",
+      "summary": "Tradução da plataforma Steam, jogos publicados pela Valve e coordenação da equipe",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade Federal do ABC",
+      "area": "Ciência da Computação",
+      "studyType": "Bacharel",
+      "startDate": "2010-04-01",
+      "endDate": "2014-09-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Linguagens de Programação",
+      "level": "",
+      "keywords": [
+        "C++",
+        "Java",
+        "PHP",
+        "Javascript",
+        "Python",
+        "Scheme"
+      ]
+    },
+    {
+      "name": "Frameworks e Bibliotecas",
+      "level": "",
+      "keywords": [
+        "Qt",
+        "Boost",
+        "OpenGL",
+        "CodeIgniter",
+        "jQuery",
+        "Node.js",
+        "Sass"
+      ]
+    },
+    {
+      "name": "Ferramentas e Práticas",
+      "level": "",
+      "keywords": [
+        "Git",
+        "Subversion",
+        "Linux",
+        "Scrum"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Inglês",
+      "fluency": "Avançado"
+    },
+    {
+      "language": "Espanhol",
+      "fluency": "Básico"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Desenvolvimento Web",
+      "keywords": []
+    },
+    {
+      "name": "Computação Gráfica",
+      "keywords": []
+    },
+    {
+      "name": "Programação de Jogos",
+      "keywords": []
+    },
+    {
+      "name": "Novas tecnologias",
+      "keywords": []
+    },
+    {
+      "name": "Sistemas Embarcados",
+      "keywords": []
+    },
+    {
+      "name": "Puzzles",
+      "keywords": []
+    }
+  ],
+  "references": []
+}

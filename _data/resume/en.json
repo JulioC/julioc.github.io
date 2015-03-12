@@ -1,0 +1,162 @@
+{
+  "basics": {
+    "name": "Júlio César de Souza",
+    "label": "Software Developer",
+    "email": "julio@julioc.me",
+    "phone": "+55 11 973774773",
+    "website": "http://julioc.me",
+    "summary": "Brazilian software developer, graduated with Computer Science bachelor degree on Universidade Federal do ABC. Experienced with development of C++ applications, Java and PHP web apps, using modern HTML, Javascript and CSS technics.",
+    "location": {
+      "address": "Al. São Caetano, 664, Ap 13",
+      "postalCode": "09560-050",
+      "city": "São Caetano do Sul",
+      "countryCode": "SP",
+      "region": "São Paulo"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "JulioC0",
+        "url": "http://br.linkedin.com/in/julioc0/"
+      },
+      {
+        "network": "GitHub",
+        "username": "JulioC",
+        "url": "https://github.com/JulioC"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Bull, an Atos Company",
+      "position": "Junior Software Development Analyst",
+      "website": "http://www.bull.com.br/",
+      "startDate": "2015-01-01",
+      "summary": "Research for innovation projects, creating prototypes and modules for new financial solutions, such as mobile banking and cloud storage for documents.  Development and improvements of Java (RichFaces, Spring) web applications and C++ (Boost, Qt) modules for integration with legacy systems.",
+      "highlights": []
+    },
+    {
+      "company": "Bull",
+      "position": "Software Development Analyst Intern",
+      "website": "http://www.bull.com.br/",
+      "startDate": "2013-05-01",
+      "endDate": "2014-12-31",
+      "summary": "Development of C++ modules with Boost and Qt for the financial images processing application, integrating the platform with legacy system (using the ISO 8583 standard) and providing interfaces for other applications. Creation of Java web interfaces for monitoring and configuration, using frameworks like Spring, Hybernate and RichFaces.",
+      "highlights": [
+        "Contributed to adopt better pratices, such as Maven builds and Continuous Integration with Jenkins",
+        "Used modern technologies to improve the web application usability"
+      ]
+    },
+    {
+      "company": "Freelancer",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2009-06-01",
+      "endDate": "2014-06-01",
+      "summary": "Development and implementation of web sites, with custom platforms and well known CMS, as Wordpress and Joomla. Use of current technologies, reactive design and social, payments and maps APIs to build modern interfaces.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Valve corporation",
+      "position": "Brazilian Portuguese Translation Moderator",
+      "website": "http://valvesoftware.com/",
+      "startDate": "2010-06-01",
+      "endDate": "2014-01-01",
+      "summary": "Translation of the Steam platform, games published by Valve and review of applicants",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade Federal do ABC",
+      "area": "Computer Science",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2010-04-01",
+      "endDate": "2014-09-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "C++",
+        "Java",
+        "PHP",
+        "Javascript",
+        "Python",
+        "Scheme"
+      ]
+    },
+    {
+      "name": "Frameworks and Libraries",
+      "level": "",
+      "keywords": [
+        "Qt",
+        "Boost",
+        "OpenGL",
+        "CodeIgniter",
+        "jQuery",
+        "Node.js",
+        "Sass"
+      ]
+    },
+    {
+      "name": "Tools and Practices",
+      "level": "",
+      "keywords": [
+        "Git",
+        "Subversion",
+        "Linux",
+        "Scrum"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Basic"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Web Development",
+      "keywords": []
+    },
+    {
+      "name": "Computer Graphics",
+      "keywords": []
+    },
+    {
+      "name": "Game Development",
+      "keywords": []
+    },
+    {
+      "name": "New Technologies",
+      "keywords": []
+    },
+    {
+      "name": "Embedded Systems",
+      "keywords": []
+    },
+    {
+      "name": "Puzzles",
+      "keywords": []
+    }
+  ],
+  "references": []
+}
