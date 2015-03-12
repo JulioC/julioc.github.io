@@ -7,6 +7,7 @@ exclude:
 # plugins
 gems:
   - jekyll-sitemap # generates standart sitemaps
+  - jekyll-redirect-from # redirects on pages
 
 # content processing
 markdown: kramdown
