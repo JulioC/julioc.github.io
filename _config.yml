@@ -1,5 +1,5 @@
 # publishing
-exclude: ["README.md", "LICENSE"]
+exclude: ["README.md", "LICENSE", "CNAME"]
 
 # plugins
 gems:
@@ -10,7 +10,11 @@ markdown: kramdown
 kramdown:
   input: GFM
 highlighter: pygments
+sass:
+  style: :compressed
+  sass_dir: _sass
 
+# routes
 baseurl: "/"
 permalink: /:title/
 
