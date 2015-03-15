@@ -13,7 +13,8 @@ gems:
 markdown: kramdown
 kramdown:
   input: GFM
-highlighter: rouge
+  syntax_highlighter: pygments
+highlighter: pygments
 sass:
   style: :compressed
   sass_dir: _sass
