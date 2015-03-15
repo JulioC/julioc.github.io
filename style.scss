@@ -5,6 +5,7 @@
 
 $font-title: Tahoma, Geneva, Verdana, sans-serif;
 $font-body: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
+$font-mono: Monaco, "Courier New", monospace;
 
 $mobile-width: 640px;
 
@@ -114,7 +115,7 @@ a:hover {
 // Contact info box
 
 #contact {
-  margin: 2em 0 2em;
+  margin-top: 1em;
   text-align: center;
 }
 
@@ -156,7 +157,28 @@ a:hover {
 
 // Post list
 
+#home {
+  background: #fff;
+  border-bottom: 1px #E2E2E2 solid;
+  padding-bottom: 0.8em;
+  margin-bottom: 2em;
+}
+
 #posts {
+  h3 {
+    margin-top: 0;
+    font-size: 18px
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .date {
+    font-family: $font-mono;
+    color: #8e8e8e;
+  }
 
 }
 

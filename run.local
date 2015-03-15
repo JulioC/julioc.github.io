@@ -1,3 +1,3 @@
 #!/bin/sh
 
-jekyll serve --drafts --config _config.yml,_config_local.yml
+jekyll serve --drafts --config _config.yml,_config_local.yml --host 0.0.0.0

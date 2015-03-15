@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<div id="home">
 <div id="header">
   <div class="container text-center">
     <h1 id="title">Júlio César</h1>
@@ -12,36 +12,50 @@ layout: default
 
   </div>
 </div>
-<div id="contact">
-  <div class="container">
-    <div class="text-center">
-      <p>In case you want to <strike>stalk</strike> know me better, you can click throught the links:</p>
-      <ul id="social" class="list-inline">
-        <li>
-          <a target="_blank" href="https://github.com/julioc" class="fa-stack fa-lg social-github">
-            <i class="fa fa-github-square fa-stack-2x"></i>
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://br.linkedin.com/in/julioc0" class="fa-stack fa-lg social-linkedin">
-            <i class="fa fa-linkedin-square fa-stack-2x"></i>
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://steamcommunity.com/id/thejcs" class="fa-stack fa-lg social-steam">
-            <i class="fa fa-steam-square fa-stack-2x"></i>
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://delicious.com/julioc0" class="fa-stack fa-lg social-delicious">
-            <i class="fa fa-delicious fa-stack-2x"></i>
-          </a>
-        </li>
-      </ul>
-      <p>
-        If you still need more, try checking out <a href="{{ site.baseurl }}resume/en">my resumé</a><br/>
-        Also, feel free to contact me at <a href="mailto:hey@julioc.me" target="_blank">hey@julioc.me</a>
-      </p>
-    </div>
+<div class="container">
+  <div id="contact">
+    <p>In case you want to <strike>stalk</strike> know me better, you can click throught the links:</p>
+    <ul id="social" class="list-inline">
+      <li>
+        <a target="_blank" href="https://github.com/julioc" class="fa-stack fa-lg social-github">
+          <i class="fa fa-github-square fa-stack-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://br.linkedin.com/in/julioc0" class="fa-stack fa-lg social-linkedin">
+          <i class="fa fa-linkedin-square fa-stack-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://steamcommunity.com/id/thejcs" class="fa-stack fa-lg social-steam">
+          <i class="fa fa-steam-square fa-stack-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://delicious.com/julioc0" class="fa-stack fa-lg social-delicious">
+          <i class="fa fa-delicious fa-stack-2x"></i>
+        </a>
+      </li>
+    </ul>
+    <p>
+      If you still need more, try checking out <a href="{{ site.baseurl }}resume/en">my resumé</a><br/>
+      Also, feel free to contact me at <a href="mailto:hey@julioc.me" target="_blank">hey@julioc.me</a>
+    </p>
   </div>
+</div>
+</div>
+<div class="container">
+  {% if site.posts != empty %}
+    <div id="posts">
+      <h3>Journal Entries</h3>
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <span class="date">{{ post.date | date: "%d %b %Y" }}</span>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
 </div>
