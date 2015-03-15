@@ -6,11 +6,6 @@ layout: post
 
 {% gist parkr/931c1c8d465a04042403 jekyll-private-gist.markdown %}
 
-{% highlight ruby linenos %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
 
 
 Sample Markdown Cheat Sheet
