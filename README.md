@@ -1,4 +1,4 @@
-# JulioC
+# Júlio César
 
 My [personal website](http://julioc.me/) hosted on GitHub Pages.
 
