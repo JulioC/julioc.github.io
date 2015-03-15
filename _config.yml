@@ -3,6 +3,7 @@ exclude:
   - README.md
   - LICENSE
   - CNAME
+  - run.local
 
 # plugins
 gems:
