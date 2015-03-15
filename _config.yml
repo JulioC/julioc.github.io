@@ -13,7 +13,7 @@ gems:
 markdown: kramdown
 kramdown:
   input: GFM
-  enable_coderay: true
+  syntax_highlighter: false # this should be the same as highlighter
 highlighter: pygments
 sass:
   style: :compressed

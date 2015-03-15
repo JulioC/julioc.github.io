@@ -1,4 +1,2 @@
 # use rouge locally
-kramdown:
-  syntax_highlighter: rouge
 highlighter: rouge
