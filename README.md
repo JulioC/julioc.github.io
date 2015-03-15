@@ -7,6 +7,7 @@ My [personal website](http://julioc.me/) hosted on GitHub Pages.
 * __Portfolio__: eventually I want be able to have a list of my projects, much like the [projects.html](projects.html) file, but dynamicly loaded, maybe with [Jekyll collections](http://jekyllrb.com/docs/collections/)
 * __Syntax highlight__: Remove highlight.js in favor of rouge ~~if~~ when GH Pages updates
 * __Localization__: Find out a better way to handle localization of the resume
+* __Continuos Integration__: In the future, I'd like to have CI on this repo. A nice reference would be [Jekyll docs](http://jekyllrb.com/docs/continuous-integration/) and their [own repository](https://github.com/jekyll/jekyll)
 
 ## Acknowledges
 
