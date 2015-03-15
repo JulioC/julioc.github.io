@@ -10,7 +10,9 @@ layout: default
 </div>
 
 <div id="content" class="container">
-  {{ content }}
-
+  <div id="post">
+     <h2 class="underlined">{{ page.title }}</h2>
+     {{ content }}
+  </div>
   {% include disqus.html %}
 </div>
