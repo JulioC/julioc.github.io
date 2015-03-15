@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div id="header">
+  <div id="header-content" class="container">
+    <h1 id="title"><a href="{{ site.baseurl }}">{{ site.name }}</a></h1>
+    {{ site.blog_info }}
+  </div>
+</div>
+
+<div id="content" class="container">
+  {{ content }}
+
+  {% include disqus.html %}
+</div>

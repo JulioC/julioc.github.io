@@ -23,7 +23,8 @@ baseurl: "/"
 permalink: /:title/
 
 # site properties
-disqus: # disqus shortname (find it on the Settings page)
+disqus: julioc # disqus shortname (find it on the Settings page)
 google_analytics: UA-30488321-1 # tracking code (e.g. UA-2110908-2)
 name: Júlio César
 description: Brazilian Software Developer
+blog_info: "Coging, games, hacking (and everything else)"
