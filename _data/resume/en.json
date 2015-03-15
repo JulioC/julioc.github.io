@@ -7,10 +7,10 @@
     "website": "http://julioc.me",
     "summary": "Brazilian software developer, graduated with Computer Science bachelor degree on Universidade Federal do ABC. Experienced with development of C++ applications, Java and PHP web apps, using modern HTML, Javascript and CSS technics.",
     "location": {
-      "address": "Al. São Caetano, 664, Ap 13",
-      "postalCode": "09560-050",
+      "address": "",
+      "postalCode": "",
       "city": "São Caetano do Sul",
-      "countryCode": "SP",
+      "countryCode": "BR",
       "region": "São Paulo"
     },
     "profiles": [
