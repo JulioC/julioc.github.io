@@ -1,2 +1,7 @@
 # use rouge locally
 highlighter: rouge
+
+# we can't run all plugins on windows
+gems:
+  - jekyll-sitemap # generates standart sitemaps
+  - jekyll-redirect-from # redirects on pages

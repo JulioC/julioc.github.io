@@ -9,6 +9,8 @@ exclude:
 gems:
   - jekyll-sitemap # generates standart sitemaps
   - jekyll-redirect-from # redirects on pages
+  - jekyll-mentions
+  - jemoji
 
 # content processing
 markdown: kramdown
