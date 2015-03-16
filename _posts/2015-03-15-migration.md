@@ -5,7 +5,7 @@ title: Migrating to GitHub Pages and Jekyll
 
 After years using Wordpress to host an abandoned it was time to make a refresh on my page. Because the plan was to build just a simple about me page, I went with plain static pages.
 
-At first, it looked like an good idea. With the basic layout done, I started building [my resume]({{ site.url }}/resume) with [JSON Resume](http://jsonresume.org/) and a custom template, along with the [localized version]({{ site.url }}/resume/br) and the [projects page]({{ site.url }}/projects). Soon I realized it was going to be a nightmare to keep everything up to date.
+At first, it looked like an good idea. With the basic layout done, I started building [my resume]({{ site.baseurl }}/resume) with [JSON Resume](http://jsonresume.org/) and a custom template, along with the [localized version]({{ site.baseurl }}/resume/br) and the [projects page]({{ site.baseurl }}/projects). Soon I realized it was going to be a nightmare to keep everything up to date.
 
 #### Jekyll and GitHub Pages
 
