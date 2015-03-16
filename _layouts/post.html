@@ -11,8 +11,11 @@ layout: default
 
 <div id="content" class="container">
   <div id="post">
-     <h2 class="underlined">{{ page.title }}</h2>
-     {{ content }}
+    <div class="meta">
+      <span class="date">{{ page.date | date: "%d %B %Y" }}</span>
+      <h2>{{ page.title }}</h2>
+    </div>
+    {{ content }}
   </div>
   {% include disqus.html %}
 </div>

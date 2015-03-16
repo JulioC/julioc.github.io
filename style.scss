@@ -16,6 +16,7 @@ body {
   color: #444;
   background: #F9F9F9;
   padding-bottom: 2em;
+  line-height: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -114,6 +115,13 @@ a:hover {
 
 // Contact info box
 
+#home {
+  background: #fff;
+  border-bottom: 1px #E2E2E2 solid;
+  padding-bottom: 0.8em;
+  margin-bottom: 2em;
+}
+
 #contact {
   margin-top: 1em;
   text-align: center;
@@ -155,14 +163,7 @@ a:hover {
   }
 }
 
-// Post list
-
-#home {
-  background: #fff;
-  border-bottom: 1px #E2E2E2 solid;
-  padding-bottom: 0.8em;
-  margin-bottom: 2em;
-}
+// Posts
 
 #posts {
   h3 {
@@ -179,7 +180,24 @@ a:hover {
     font-family: $font-mono;
     color: #8e8e8e;
   }
+}
 
+#post {
+  .meta {
+    border-bottom: 1px #E2E2E2 solid;
+    padding-bottom: 0.2em;
+    margin-top: 20px;
+    margin-bottom: 0.6em;
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .date {
+      font-family: $font-mono;
+      color: #8e8e8e;
+    }
+  }
 }
 
 // Resume style
