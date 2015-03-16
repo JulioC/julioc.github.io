@@ -206,6 +206,19 @@ a:hover {
       color: #8e8e8e;
     }
   }
+
+  .content {
+    color: #505050;
+
+    h4, h5, h6 {
+        margin: 1em 0 0.8em;
+    }
+
+    p {
+      margin-bottom: 1.2em;
+      line-height: 1.8em;
+    }
+  }
 }
 
 // Resume style
