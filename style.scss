@@ -191,6 +191,14 @@ a:hover {
 
     h2 {
       margin-top: 0;
+
+      a {
+        color: inherit;
+
+        &:focus, &:hover, &:active {
+          text-decoration: none;
+        }
+      }
     }
 
     .date {

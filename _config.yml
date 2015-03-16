@@ -24,7 +24,7 @@ sass:
 
 # routes
 baseurl: "/"
-permalink: /:title/
+permalink: /blog/:title/
 
 # site properties
 disqus: julioc # disqus shortname (find it on the Settings page)
