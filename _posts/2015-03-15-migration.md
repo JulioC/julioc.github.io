@@ -9,7 +9,7 @@ At first, it looked like an good idea. With the basic layout done, I started bui
 
 #### Jekyll and GitHub Pages
 
-My alternative plan was to go with a static site generator, like [Pelican](http://getpelican.com/), build on Python, or [Jekyll](http://jekyllrb.com/), build on Ruby. After some research, Jekyll was the winner for the single fact that it powers [GitHub Pages](https://pages.github.com/).
+My alternative plan was to go with a static site generator, like [Pelican](http://getpelican.com/), built on Python, or [Jekyll](http://jekyllrb.com/), built on Ruby. After some research, Jekyll was the winner for the single fact that it powers [GitHub Pages](https://pages.github.com/).
 
 Jekyll has lot of features, including [Markdown](http://daringfireball.net/projects/markdown/) (including [GFM](https://help.github.com/articles/github-flavored-markdown/) using the [kramdown engine](http://kramdown.gettalong.org/)), [Liquid](https://github.com/Shopify/liquid/) templating language and [Sass](http://sass-lang.com/). As a bonus for hosting on GitHub Pages you get a nice hosting for free and lots of easy ways to edit the content.
 
