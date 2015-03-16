@@ -94,14 +94,17 @@ a:hover {
   }
 }
 
-#title,
-#title a {
+#title {
   color: #fff;
   margin-top: 0;
-}
 
-#title a:hover {
-  text-decoration: none;
+  a {
+    color: #fff;
+
+    &:focus, &:hover, &:active {
+      text-decoration: none;
+    }
+  }
 }
 
 #subtitle {
