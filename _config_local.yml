@@ -5,3 +5,5 @@ highlighter: rouge
 gems:
   - jekyll-sitemap # generates standart sitemaps
   - jekyll-redirect-from # redirects on pages
+
+baseurl: "/"

@@ -23,7 +23,7 @@ sass:
   sass_dir: _sass
 
 # routes
-baseurl: "/"
+baseurl: "http://julioc.me/"
 permalink: /blog/:title/
 
 # site properties
