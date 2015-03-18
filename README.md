@@ -4,8 +4,6 @@ My [personal website](http://julioc.me/) hosted on GitHub Pages.
 
 ## TODO List
 
-* __RSS__: add blog RSS feed like [Poole's](https://github.com/poole/poole/blob/master/atom.xml) or [the one from Jekyll Now](https://github.com/barryclark/jekyll-now/blob/master/feed.xml)
-* __Error page__: a custom 404 page
 * __Portfolio__: eventually I want be able to have a list of my projects, much like the [projects.html](projects.html) file, but dynamicly loaded, maybe with [Jekyll collections](http://jekyllrb.com/docs/collections/)
 * __Syntax highlight__: Remove highlight.js in favor of rouge ~~if~~ when GH Pages updates
 * __Localization__: Find out a better way to handle localization of the resume
