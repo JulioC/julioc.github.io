@@ -16,6 +16,9 @@ My next plan was to go with my usual editor, [Sublime Text](http://www.sublimete
 
 ![](http://i.imgur.com/IkirwAE.gif)
 
+https://packagecontrol.io/packages/Unity%20C%23%20Snippets
+https://packagecontrol.io/packages/Unity3D%20Reference%20Search
+
 TODO: gist on my settings here?
 
 TODO: continue :)
