@@ -16,8 +16,10 @@ My next plan was to go with my usual editor, [Sublime Text](http://www.sublimete
 
 ![](http://i.imgur.com/IkirwAE.gif)
 
-https://packagecontrol.io/packages/Unity%20C%23%20Snippets
+The plugin is available on Sublime [Package Control](https://packagecontrol.io/), as the other plugin I'm finding really useful, [Unity Reference Search](https://packagecontrol.io/packages/Unity3D%20Script%20Reference%20Search), which adds the `CTRL+'` shortcut for searching on the Unity docs. 
+
 https://packagecontrol.io/packages/Unity3D%20Reference%20Search
+
 
 TODO: gist on my settings here?
 
