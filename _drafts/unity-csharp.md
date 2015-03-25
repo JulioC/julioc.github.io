@@ -12,15 +12,16 @@ I can't deny, the built in editor, [MonoDevelop](http://www.monodevelop.com/) is
 
 An alternative was to use Visual Studio, which has a nice integration using [Visual Studio Tools for Unity](http://unityvs.com/). Like MonoDevelop, it's possible to debug Unity scripts on Visual Studio. The only issue I have is that it doesn't work with the Express version (correct me if I'm wrong).
 
-My next plan was to go with my usual editor, [Sublime Text](http://www.sublimetext.com/). I'd heard about [OmniSharp](https://github.com/OmniSharp/omnisharp-sublime), a plugin for Sublime which adds IDE features such as error reporting and IntelliSense-like code completion (below). On [this post by Jonathan Channon](http://blog.jonathanchannon.com/2014/11/12/csharp-first-class-citizen-sublime-text/), where the image comes from, you can get an overview on the plugin installation and some other nice animations of the features OmniSharp has.
+#### Sublime Text setup
+
+My next plan was to go with my usual editor, [Sublime Text](http://www.sublimetext.com/). I'd heard about [OmniSharp](https://github.com/OmniSharp/omnisharp-sublime), a plugin for Sublime which adds IDE features such as error reporting and IntelliSense-like code completion. The image below is from [a post by Jonathan Channon](http://blog.jonathanchannon.com/2014/11/12/csharp-first-class-citizen-sublime-text/) where he goes in detail about the plugin. His setup is not made for Unity, so I've made [a gist]() with the settings I'm currently using.
 
 ![](http://i.imgur.com/IkirwAE.gif)
 
-The plugin is available on Sublime [Package Control](https://packagecontrol.io/), as the other plugin I'm finding really useful, [Unity Reference Search](https://packagecontrol.io/packages/Unity3D%20Script%20Reference%20Search), which adds the `CTRL+'` shortcut for searching on the Unity docs. 
+Another useful package I'm using is [Unity Reference Search](https://packagecontrol.io/packages/Unity3D%20Script%20Reference%20Search), which adds the `CTRL+'` shortcut for searching on the Unity docs. On [Package Control](https://packagecontrol.io/) there is a collection of [snippets for Unity C#](https://packagecontrol.io/packages/Unity%20C%23%20Snippets). I didn't feel confortable with them, so I'm creating my own as I go ( for now, it's not usefull enough to be public).
 
-https://packagecontrol.io/packages/Unity3D%20Reference%20Search
+### Learning C#
 
+I consider myself a C++ programmer with some Java knowledge, so the idea was to get an overview of C# reading comparassions  . Since C# is s
 
-TODO: gist on my settings here?
-
-TODO: continue :)
+...
