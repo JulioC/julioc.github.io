@@ -38,3 +38,42 @@ Since it's just an introductory material, it's OK, but calls for an updated vers
 - Animation Overriders
 110. Game Over
 - Creating animations
+
+### [Space Shooter](http://unity3d.com/learn/tutorials/projects/space-shooter)
+
+same as roll-a-ball
+outdated
+reading docs
+cut off
+
+100. Introduction
+101. Setting up the project
+102. The player gameobject
+103. Camera and lighting
+- Camera modes
+- Combining lighting
+104. Adding a background
+- Textures and shaders
+105. Moving the player
+- Scripts
+- Serializable classes
+106. Creating shots
+- Particles shaders
+107. Shooting Shots
+- Instatiating
+108. Boundary
+- Triggers
+109. Creating hazards
+- Debugging
+- Tags
+110. Explosions
+111. Game Controller
+112. Spawning Waves
+- Coroutines
+113. Audio
+- Unity 4 audio
+114. Counting points and displaying the score
+- Unity 4 GUI
+115. Ending the game
+116. Building the game
+- Publishing with web player
