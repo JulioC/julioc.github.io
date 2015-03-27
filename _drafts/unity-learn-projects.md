@@ -85,7 +85,7 @@ __Rating:__ :ok_hand:
 06. Creating shots
 - Particles shaders
 07. Shooting Shots
-- Instatiating
+- Instantiating
 08. Boundary
 - Triggers
 09. Creating hazards
