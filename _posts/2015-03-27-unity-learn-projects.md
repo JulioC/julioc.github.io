@@ -187,6 +187,54 @@ __Chapter 4: Enemies__
 __Play [my version of Unity Learn: Stealth](http://julioc.itch.io/unity-learn-stealth?secret=LSaf50Gcc7YQDHbsAKWNK8JNeY) on [itch.io](http://itch.io/)__
 Except from the lighting, that is much brighter in my version, the result is very similar from what I expected.
 
+#### 2D Roguelike
+
+Quoting the videos, this project is a "small turn-based tile-based roguelike game". It's categorized as a Intermediate project, but I don't feel it's not as hard as Stealth. As the others, it comes with all the assets and preset tags and layers.
+
+So far, this is the only guide that's made for Unity 5. It uses the new 2D features and mobile build targeting, with touch inputs.
+
+Sometimes it's hard to follow the guide when selecting sprites, but that's not a big issue.
+
+__Time to finish:__ 4 hours
+__Rating:__ :+1:
+
+##### Content Highlights
+
+101. Project Introduction
+102. Player and Enemy Animations
+- Sprites
+- Animation
+103. Creating the Tile Prefabs
+104. Writing the Board Manager
+- Random (Unity)
+- Instantiating tiles
+105. Writing the Game Manager
+- Singletons (in some way)
+106. Moving Object Script
+- Inheritance
+- Generics
+107. Creating Destructible Walls
+108. Player Animator Controller
+- 2D animation transitions
+109. Writing the Player Script
+- HideInInspector
+110. Writing the Enemy Script
+- Turns
+111. Enemy Animator Controller
+112. Adding UI & Level Transitions
+- UI positioning
+113. Audio and Sound Manager
+- Variadic functions
+- Sounds in 2D games
+114. Adding Mobile Controls
+- Platform specific code
+- Touch input
+- Testing on a device
+
+##### Results
+
+__Play [my version of Unity Learn: 2D Roguelike](http://julioc.itch.io/unity-learn-2d-roguelike?secret=0aedmpnYGVPdwxpiCw2xCj8LaFk) on [itch.io](http://itch.io/)__
+
 ### Next
 
-There is one more official project available, a [2D Roguelike](http://unity3d.com/learn/tutorials/projects/2d-roguelike). I hope to get some time for it on the next week. There are the stretch goals from Stealth projects, which I'll be doing sometime in the future. I also plan to revisit the other projects and try to fix the issues I have on them as soon I feel more comfortable with Unity. I'll update this project with the information on these plans.
+There are the stretch goals from Stealth projects, which I'll be doing sometime in the future. I also plan to revisit the other projects and try to fix the issues I have on them as soon I feel more comfortable with Unity. I'll update this project with the information on these plans.
