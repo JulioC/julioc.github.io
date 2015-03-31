@@ -187,7 +187,7 @@ __Chapter 4: Enemies__
 __Play [my version of Unity Learn: Stealth](http://julioc.itch.io/unity-learn-stealth?secret=LSaf50Gcc7YQDHbsAKWNK8JNeY) on [itch.io](http://itch.io/)__
 Except from the lighting, that is much brighter in my version, the result is very similar from what I expected.
 
-#### 2D Roguelike
+#### [2D Roguelike](http://unity3d.com/learn/tutorials/projects/2d-roguelike)
 
 Quoting the videos, this project is a "small turn-based tile-based roguelike game". It's categorized as a Intermediate project, but I don't feel it's not as hard as Stealth. As the others, it comes with all the assets and preset tags and layers.
 
