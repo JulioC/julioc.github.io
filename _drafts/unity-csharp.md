@@ -1,27 +1,32 @@
 ---
-published: false
+layout: post
+title: Programming C# for Unity on Sublime Text
 ---
 
-## Diving into C# with Unity
+I can't deny, the Unity built in editor, [MonoDevelop](http://www.monodevelop.com/), is a nice IDE. It has all the features I expected, including code completion, error detection and debug integration with Unity. Sadly, it's not as stable as I expected, having some bugs that make it unusable for me (e.g. it doesn't handle quotes on my keyboard).
 
-An overview on my learning process of C# while starting out with Unity development
+An alternative was to use Visual Studio, which has a nice integration using [Visual Studio Tools for Unity](http://unityvs.com/). Like MonoDevelop, it's possible to debug Unity scripts on Visual Studio. The only issue I have is that it doesn't work with the Express version (or am I mistaken?).
 
-### The enviroment
+#### Sublime Text
 
-I can't deny, the built in editor, [MonoDevelop](http://www.monodevelop.com/) is a nice IDE, with all the features I expected from it, including code completion, error detection and debug integration with Unity. Sadly, it's not as stable as I expected and has some bugs that make it unusable on my machine (it doesn't handle quotes from my keyboard).
+My next plan was to go with my usual editor, [Sublime Text](http://www.sublimetext.com/). I've been using it for a while and it's working really nice (see the gif below). The only thing I miss is the debuging, which I've been doing with MonoDevelop.
 
-An alternative was to use Visual Studio, which has a nice integration using [Visual Studio Tools for Unity](http://unityvs.com/). Like MonoDevelop, it's possible to debug Unity scripts on Visual Studio. The only issue I have is that it doesn't work with the Express version (correct me if I'm wrong).
+![]({{ site.baseurl }}images/posts/unity-csharp/behaviour_demo.gif)
 
-#### Sublime Text setup
+##### OmniSharp
 
-My next plan was to go with my usual editor, [Sublime Text](http://www.sublimetext.com/). I'd heard about [OmniSharp](https://github.com/OmniSharp/omnisharp-sublime), a plugin for Sublime which adds IDE features such as error reporting and IntelliSense-like code completion. The image below is from [a post by Jonathan Channon](http://blog.jonathanchannon.com/2014/11/12/csharp-first-class-citizen-sublime-text/) where he goes in detail about the plugin. His setup is not made for Unity, so I've made [a gist]() with the settings I'm currently using.
+The [OmniSharp](https://github.com/OmniSharp/omnisharp-sublime) package adds IDE features such as error reporting and IntelliSense code completion. It does the magic using a server which runs on background and parser your files. The downside is that it fails sometimes to find the Unity run time.
 
-![](http://i.imgur.com/IkirwAE.gif)
+The package is available on [Package Control](https://packagecontrol.io/) and depends on an entry on your [project settings](https://www.sublimetext.com/docs/3/projects.html) to find the solution. I ended up creating a template for this:
 
-Another useful package I'm using is [Unity Reference Search](https://packagecontrol.io/packages/Unity3D%20Script%20Reference%20Search), which adds the `CTRL+'` shortcut for searching on the Unity docs. On [Package Control](https://packagecontrol.io/) there is a collection of [snippets for Unity C#](https://packagecontrol.io/packages/Unity%20C%23%20Snippets). I didn't feel confortable with them, so I'm creating my own as I go ( for now, it's not usefull enough to be public).
+{% gist JulioC/58556ae155e818a4bbc1 %}
 
-### Learning C#
+##### Unity Reference Search
 
-I consider myself a C++ programmer with some Java knowledge, so the idea was to get an overview of C# reading comparassions  . Since C# is s
+[Unity Reference Search](https://packagecontrol.io/packages/Unity3D%20Script%20Reference%20Search) allows you to search the Unity documentation for the selected text using `CTRL+'`.
 
-...
+##### Other helpers
+
+A great annoyance for me was remembering the messages that Unity calls on MonoBehaviour. On the first days I used sublime completions file (which the source I can't remember), but OmniSharp overrides the suggestion list, making the completions inaccessible.
+
+I ended up converting them into snippet files, which are available on my GitHub: [JulioC/unity-messages-snippets](https://github.com/JulioC/unity-messages-snippets). I also made a [MonoBehaviour snippet](https://gist.github.com/JulioC/a8ec963741d8699c221c).
