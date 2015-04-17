@@ -31,4 +31,6 @@ The package is available on [Package Control](https://packagecontrol.io/) and de
 
 A great annoyance for me was remembering the messages that Unity calls on MonoBehaviour. On the first days I used sublime completions file (which the source I can't remember), but OmniSharp overrides the suggestion list, making the completions inaccessible.
 
-I ended up converting them into snippet files, which are available on my GitHub: [JulioC/unity-messages-snippets](https://github.com/JulioC/unity-messages-snippets). I also made a [MonoBehaviour snippet](https://gist.github.com/JulioC/a8ec963741d8699c221c).
+I ended up converting them into snippet files, which are available on my GitHub: [JulioC/unity-messages-snippets](https://github.com/JulioC/unity-messages-snippets). I also made a MonoBehaviour snippet, included below. To install these snippets, just save them on your packages folder (press `CTRL+SHIFT+P` and search for `browse packages`).
+
+{% gist JulioC/a8ec963741d8699c221c %}
