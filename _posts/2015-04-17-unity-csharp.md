@@ -9,7 +9,9 @@ An alternative was to use Visual Studio, which has a nice integration using [Vis
 
 #### Sublime Text
 
-My next plan was to go with my usual editor, [Sublime Text](http://www.sublimetext.com/). I've been using it for a while and it's working really nice (see the gif below). The only thing I miss is the debuging, which I've been doing with MonoDevelop.
+My next plan was to go with my usual editor, [Sublime Text](http://www.sublimetext.com/). It's a text editor really easy to customize, with lots of packages already available for download.
+
+I've been using this setup for a while it's working nicely. The only thing I really miss is debuging, which I've been doing with MonoDevelop. the animation below is a example of my workflow:
 
 ![]({{ site.baseurl }}images/posts/unity-csharp/behaviour_demo.gif)
 
@@ -23,7 +25,7 @@ The package is available on [Package Control](https://packagecontrol.io/) and de
 
 ##### Unity Reference Search
 
-[Unity Reference Search](https://packagecontrol.io/packages/Unity3D%20Script%20Reference%20Search) allows you to search the Unity documentation for the selected text using `CTRL+'`.
+[Unity Reference Search](https://packagecontrol.io/packages/Unity3D%20Script%20Reference%20Search) allows you to search the Unity documentation for the selected text using `CTRL+'`. It's also available on Package Control.
 
 ##### Other helpers
 
