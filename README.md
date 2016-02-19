@@ -2,6 +2,10 @@
 
 My [personal website](http://julioc.me/) hosted on GitHub Pages.
 
+## Testing
+
+    jekyll serve --drafts --host 0.0.0.0
+
 ## TODO List
 
 * __Portfolio__: eventually I want be able to have a list of my projects, much like the [projects.html](projects.html) file, but dynamicly loaded, maybe with [Jekyll collections](http://jekyllrb.com/docs/collections/)

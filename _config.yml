@@ -10,6 +10,7 @@ gems:
   - jekyll-sitemap # generates standart sitemaps
   - jekyll-redirect-from # redirects on pages
   - jekyll-mentions
+  - jekyll-gist
   - jemoji
 
 # content processing
@@ -17,13 +18,13 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: false # this should be the same as highlighter
-highlighter: pygments
+highlighter: rouge
 sass:
   style: :compressed
   sass_dir: _sass
 
 # routes
-baseurl: "http://julioc.me/"
+baseurl: "/"
 permalink: /blog/:title/
 
 # site properties
