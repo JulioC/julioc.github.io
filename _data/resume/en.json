@@ -28,8 +28,16 @@
   },
   "work": [
     {
+      "company": "PushStart",
+      "position": "Software Developer",
+      "website": "http://pushstart.com.br/",
+      "startDate": "2016-05-01",
+      "summary": "Creating platforms for gamification using Angular and Ionic. Development of games using web technologies",
+      "highlights": []
+    },
+    {
       "company": "Bull, an Atos Company",
-      "position": "Junior Software Development Analyst",
+      "position": "Software Development Analyst",
       "website": "http://www.bull.com.br/",
       "startDate": "2015-01-01",
       "endDate": "2015-03-01",

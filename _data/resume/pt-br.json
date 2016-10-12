@@ -28,6 +28,14 @@
   },
   "work": [
     {
+      "company": "PushStart",
+      "position": "Desenvolvedor de Software",
+      "website": "http://pushstart.com.br/",
+      "startDate": "2016-05-01",
+      "summary": "Criação de plataformas para gamificação, usando Angular e Ionic. Desenvolvimento de jogos para web",
+      "highlights": []
+    },
+    {
       "company": "Bull, an Atos Company",
       "position": "Análise e Desenvolvimento de Software",
       "website": "http://www.bull.com.br/",
